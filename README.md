@@ -33,4 +33,4 @@ So:
 
 ![formula](https://render.githubusercontent.com/render/math?math=\color{red}r%20*%20(r%20%2B%201)%20=%202n%20\rightarrow%20r^2%20%2B%20r%20-%202n%20=%200\rightarrow%20r%20=%20\frac{\sqrt{8n%20%2B%201}%20-%201}{2})
 
-This way, we could just generate a number between [1, 15] and applying the formula above, determine which is its corresponding row and consequently, its element. We only must bare in mind that if our result it is not an exact number, we should apply then a ceiling to the next integer number.
+This way, we could just generate a number between [1, 15] (the 15 value can be easily determined using the gaussian sum of consecutive integers formula) and applying the formula above, determine which is its corresponding row and consequently, its element. We only must bare in mind that if our result it is not an exact number, we must apply then a ceiling to the next integer number.
