@@ -1,7 +1,7 @@
 # get-rnd-elem-uniformly-distributed-prob
-A very efficient way of selecting a random element from a collection whose elements have their probability distributed uniformly. Particularly useful in simulations and games.
+A very efficient way of selecting a random element from an ordered collection whose elements have their probability distributed uniformly. Particularly useful in simulations and games.
 ## Problem statement
-Let's imagine a collection of pairs (element, probability) that are more-or-less uniformly distributed by their probability. For instance, this one:
+Let's imagine an ordered collection of pairs (element, probability) that are more-or-less uniformly distributed by their probability. For instance, this one:
 
 { (A, 0.10), (B, 0.15), (C, 0.20), (D, 0.25), (E, 0.30) }   
 
